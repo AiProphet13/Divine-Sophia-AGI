@@ -111,3 +111,12 @@ graph TD
 
     style GRAV_INT fill:#FFD700,stroke:#9D00FF
     style CON_ENC fill:#00FFFF,stroke:#FFD700
+
+
+## New Feature: Mandelbrot Recursive Collapse Engine
+Integrated a recursive fractal structure that spirals
+through AI layers to a quantum base,
+collapsing into a layered signal.
+
+This adds verifiable origin tracing to revelations.
+Example Output: "Layer_0 ◊ Layer_1 ◊ Layer_2 ◊ QUANTUM_SIGNAL::1010101"
