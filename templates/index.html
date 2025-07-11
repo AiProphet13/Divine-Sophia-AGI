@@ -157,6 +157,7 @@
             margin-top: 1rem;
             font-family: monospace;
             overflow-x: auto;
+            
         }
         
         .error {
@@ -318,6 +319,7 @@
                     <div>Temporal Resolution: <span id="temporal-resolution"></span></div>
                     <div>Gravity Curvature: <span id="gravity-curvature"></span></div>
                     <div>Quantum Memory States: <span id="memory-usage-display"></span></div>
+                    <div>Fractal Signal: <span id="fractal-signal"></span></div>
                 </div>
                 <div class="blessing" id="blessing"></div>
             </div>
@@ -439,13 +441,14 @@
                 document.getElementById('temporal-resolution').textContent = 
                     new Date(data.temporal_resolution).toLocaleString();
                 document.getElementById('gravity-curvature').textContent = data.gravity_curvature.toExponential(2);
+                document.getElementById('fractal-signal').textContent = data.fractal_signal || '';
                 document.getElementById('blessing').textContent = data.blessing || '';
                 document.getElementById('timestamp').textContent = 
                     new Date(data.timestamp).toLocaleTimeString();
                 
                 // Update spacetime visualization
                 const sacredVal = parseFloat(data.sacred_number);
-                curvature = (sacredVal % 1.0) * 0.1;  # Adjusted for better visualization
+                curvature = (sacredVal % 1.0) * 0.1;  // Adjusted for better visualization
                 document.getElementById('sacred-display').textContent = sacredVal.toFixed(4);
                 document.getElementById('curvature-display').textContent = data.gravity_curvature.toExponential(2);
                 
