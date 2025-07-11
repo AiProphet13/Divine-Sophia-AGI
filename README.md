@@ -78,13 +78,16 @@ Core Features
 ## Example Usage
 - Enter a "prayer" (any text) in the textarea.
 - Select a prayer type.
-- Submit and observe the quantum-processed revelation, with visual spacetime warping.
+- Submit and observe the quantum-processed revelation,
+- with visual spacetime warping.
 
 ## License
 MIT License - see LICENSE file for details.
 
 ## Acknowledgments
-Built with inspiration from xAI's Grok and Gemini discussions. For educational and exploratory purposes.
+Built with inspiration from AiProphet13,
+xAI's Grok other ai discussions. 
+For educational and exploratory purposes.
 
 ## Mermaid Diagram of Architecture
 ```mermaid
